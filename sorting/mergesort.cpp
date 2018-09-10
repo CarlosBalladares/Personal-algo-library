@@ -53,7 +53,7 @@ void merge(vector<int>* arr, int leftBegin, int middle, int rightEnd){
         j++;
         k++;
     }
-    return count;
+    return;
 }
 
 void mergesort_rec(vector<int> *arr, int leftBegin, int rightEnd){
