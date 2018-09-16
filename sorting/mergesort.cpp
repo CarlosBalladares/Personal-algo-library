@@ -1,6 +1,6 @@
 /*
   This is my C++ implementation of mergesort.
-  sorta in o(nlogn)
+  sorts in O(nlogn)
 */
 void merge(vector<int>* arr, int leftBegin, int middle, int rightEnd){
     // We declare out indices
@@ -53,7 +53,7 @@ void merge(vector<int>* arr, int leftBegin, int middle, int rightEnd){
         j++;
         k++;
     }
-    return count;
+    return;
 }
 
 void mergesort_rec(vector<int> *arr, int leftBegin, int rightEnd){
