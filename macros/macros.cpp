@@ -9,7 +9,11 @@
 #define MIN(x, y) (((x) < (y)) ? (x) : (y))
 
 // Loop macros
-#define loop(x, n) for(int x = 0; x < n; x++)
-#define loop_back(x, n) for(int x = n-1 x >= 0; x--)
+#define FOR(x, n) for(int x = 0; x < n; x++)
+#define FOR_BACK(x, n) for(int x = n-1 x >= 0; x--)
+
+// debug macros
+#define DEBUG 1
+#define DEBUG_DO(x) if (DEBUG) x
 
 
