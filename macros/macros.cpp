@@ -16,4 +16,10 @@
 #define DEBUG 1
 #define DEBUG_DO(x) if (DEBUG) x
 
+// debug print combined macros
+#define DEBUG 1
+#define print_val(message, val) if(DEBUG) cout << message << val << endl;
+#define print_l(a) if(DEBUG) cout << a << endl;
+#define print_vec(a) if(DEBUG) for(int i =0; i <a.size();i++)cout << a <<", "; cout << endl;
+
 
