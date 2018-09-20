@@ -1,5 +1,5 @@
 /*
-  Useful code to print all substrings runs O(n^2)
+  Useful code to print all substrings runs O(n^3)
 */
 
 void print_all_substrings(string str) {
