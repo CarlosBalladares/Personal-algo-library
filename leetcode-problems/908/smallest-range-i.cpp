@@ -6,6 +6,8 @@
     That means that the difference will be reduced my at most
     2*k. Of course if our difference is less than 2*K
     then it becomes 0.
+
+    Techniques: greedy, sort
 */
 
 class Solution {
