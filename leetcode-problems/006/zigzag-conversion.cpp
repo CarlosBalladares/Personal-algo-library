@@ -15,7 +15,7 @@
     one after in function of the distance from the end of the row. case of a 
     be very careful with out of bounds error.
 
-    technique: math, array-indexing
+    technique: math
 
 */
 
