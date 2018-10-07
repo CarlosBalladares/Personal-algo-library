@@ -17,7 +17,7 @@
 #define DEBUG 1
 #define DEBUG_DO(x) if (DEBUG) x
 
-// maros update
+// macros update
 #define DEBUG 0
 #define print_val(message, val) if(DEBUG) cout << message << val << endl;
 #define print_l(a) if(DEBUG) cout << a << endl;
