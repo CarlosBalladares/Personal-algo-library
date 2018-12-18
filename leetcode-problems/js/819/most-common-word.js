@@ -1,5 +1,4 @@
 const mostCommonWord = (paragraph, banned) => {
-  //const par =
   const arr = [],
     map = {};
   let wrd;
